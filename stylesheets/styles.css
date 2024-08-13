@@ -1,0 +1,100 @@
+body {
+    background-color: #DCDBDC;
+}
+
+.generate-btn {
+    --bs-btn-bg: #434EA0;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-border-color: #434EA0;
+    --bs-btn-hover-bg: #2D2A6D;
+    --bs-btn-hover-border-color: #2D2A6D;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-active-bg: #2D2A6D;
+    --bs-btn-active-border-color: #2D2A6D;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+}
+
+.btn-xsm {
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.left-row {
+    margin-right: 10px;
+}
+
+.dataTables_scrollBody {
+    max-height: 45vh; /*max-height: 50vh;*/
+}
+
+.dataTables_scrollHead {
+    background-color: #F8F9FA;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.thd {
+    background-color: #434EA0;
+    color: #FFFFFF;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dataTables_info {
+    display: none;
+}
+
+.table-logs {
+    table-layout: fixed;
+}
+
+video::-webkit-media-controls {
+    display: none;
+}
+
+.table-responsive {
+    height: 45vh;
+}
+
+#ui-id-1 {
+    background-color: #FFFFFF;
+    color: #000000;
+    list-style-type: none;
+    width: 280px;
+    cursor: pointer;
+    z-index: 9 !important;
+    overflow: auto !important;
+    max-height: 300px;
+}
+
+#ui-id-1>li:hover {
+    background-color: #7777AC;
+    color: #FFFFFF;
+}
+
+.btn-light {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+/* This is to hide the unnecessary displayed selected name */
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.notfound {
+    font-size: 12px;
+}
+
+#notfound, .notfound {
+    cursor: pointer;
+}
