@@ -262,3 +262,5 @@ Image data length: 1432044
 Decoded data length: 1074033
 Image data length: 23628
 Decoded data length: 17720
+Image data length: 1466032
+Decoded data length: 1099522
