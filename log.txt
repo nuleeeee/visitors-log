@@ -734,3 +734,5 @@ Image data length: 6
 Decoded data length: 3
 Image data length: 6
 Decoded data length: 3
+Image data length: 6
+Decoded data length: 3
