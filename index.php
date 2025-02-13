@@ -85,7 +85,7 @@
                             <td>
                                 <input type="text" id="newcompany" class="form-control d-none">
                                 <select id="visitors_company" class="form-control selectpicker" data-live-search="true"></select>
-                                <input type="checkbox" id="notfound" onchange="ifNotFound();"> <label for="notfound" class="notfound">Not Found</label>
+                                <!-- <input type="checkbox" id="notfound" onchange="ifNotFound();"> <label for="notfound" class="notfound">Not Found</label> -->
                             </td>
                             <td class="fw-bold text-start">Contact No.</td>
                             <td><input type="text" id="visitors_contact" class="form-control"></td>

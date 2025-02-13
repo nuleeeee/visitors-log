@@ -2,7 +2,9 @@
 
 include "php/session.php";
 
-$sql = "SELECT nameidxx, vname FROM vlookup_mcore.vname where nameidxx in (select nameidz from vlookup_mcore.vsupp) ORDER BY vname ASC";
+$sql = "SELECT nameidxx, vname FROM vlookup_mcore.vname
+where nameidxx in (select nameidz from vlookup_mcore.vsupp) AND hide = 1
+ORDER BY vname ASC";
 echo optionlst($db,$sql,"vname","nameidxx");
 
 function optionlst($db,$sqlcommand,$flddsplay,$fldvalue)
